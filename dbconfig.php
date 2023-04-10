@@ -1,5 +1,5 @@
 <?php
-define('DB_HOST', 'localhost;unix_socket=/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock');
+define('DB_HOST', 'localhost:3306');
 define('DB_NAME', 'php_auth');
 define('DB_USER', 'root');
 define('DB_PASS', '');
@@ -18,4 +18,5 @@ function getDB() {
   }
   return $pdo;
 }
+
 ?>

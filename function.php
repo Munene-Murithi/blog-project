@@ -1,6 +1,6 @@
 <?php
 function checkIfExists($email_value, $phone_value) {    
-    $servername = "localhost;unix_socket=/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock";
+    $servername = "localhost:3306";
     $username = "root";
     $dbpassword = "";
     $dbname = "php_auth";
